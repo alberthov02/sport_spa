@@ -1,0 +1,49 @@
+.AddJogeModal {
+  &-container {
+    position: relative;
+    width: 100vh;
+    height: 100vw;
+  }
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  background-color: #7ed321;
+  width: 500px;
+  border-radius: 44px;
+  &-form {
+    padding: 50px 100px 30px 100px;
+    &_label {
+      margin: 25px 0;
+      display: flex;
+      justify-content: space-between;
+      input {
+        border-radius: 7px;
+        border: solid 1px #979797;
+        background-color: #fff;
+        height: 31px;
+        width: 70%;
+      }
+    }
+    button {
+      width: 320px;
+      height: 42px;
+      border-radius: 25.2px;
+      border: solid 2px #fff;
+      color: #fff;
+      background-color: transparent;
+    }
+  }
+  &-closeButton {
+    color: #fff;
+    position: absolute;
+    right: 20px;
+    font-size: 27px;
+    top: 10px;
+    font-weight: 900;
+    border: none;
+    background-color: transparent;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

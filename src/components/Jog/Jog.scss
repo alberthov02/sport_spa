@@ -1,0 +1,19 @@
+.Jog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+  &-info {
+    font-size: 14px;
+    p {
+      margin: 5px 10px;
+      font-family: SFUIText;
+    }
+    span {
+      font-weight: 500;
+    }
+    &_textBold {
+      font-weight: 700;
+    }
+  }
+}

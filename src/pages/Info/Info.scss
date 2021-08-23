@@ -1,0 +1,18 @@
+.Info {
+  &-container {
+    margin: 0 auto;
+    max-width: 614px;
+  }
+  &-heading {
+    margin-top: 85px;
+    font-family: SFUIText;
+    font-size: 36px;
+    font-weight: bold;
+    color: #7ed321;
+  }
+  &-text {
+    font-family: SFUIText;
+    font-size: 14px;
+    line-height: 1.71;
+  }
+}
