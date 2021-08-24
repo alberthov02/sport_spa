@@ -1,8 +1,8 @@
 .Jog {
   display: flex;
-  justify-content: center;
+  width: 240px;
   align-items: center;
-  margin: 40px 0;
+  margin: 40px auto;
   &-info {
     font-size: 14px;
     p {
